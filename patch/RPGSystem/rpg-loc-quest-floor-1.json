@@ -1,0 +1,210 @@
+{
+  "dataList": [
+    {
+      "key": "Q1000",
+      "title": "开场",
+      "description": "用于在加载后立即播放开场演出(S1001B)的隐藏任务",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1011",
+      "title": "环顾四周",
+      "description": "来到了名为西西弗百货的地方。默尔索会在哪里呢？总之先环顾一下四周比较好。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "环顾四周"
+        }
+      ]
+    },
+    {
+      "key": "Q1012",
+      "title": "返回洗手间",
+      "description": "在西西弗百货遇到了克罗默的亲姐姐。总之先回到洗手间重整旗鼓吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "返回洗手间"
+        }
+      ]
+    },
+    {
+      "key": "Q1013",
+      "title": "寻找默尔索",
+      "description": "默尔索似乎就在百货店的某处。地上铺着地毯，前方是陈列着衣服的地方。一边逛百货店，一边去找找看展示衣服的地方吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "逛逛百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1014",
+      "title": "???",
+      "description": "似乎隐藏着什么东西。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "???"
+        }
+      ]
+    },
+    {
+      "key": "Q1021",
+      "title": "寻找默尔索 2",
+      "description": "默尔索应该就在这附近。找找看默尔索吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "找找默尔索"
+        }
+      ]
+    },
+    {
+      "key": "Q1022",
+      "title": "默尔索的提议",
+      "description": "决定是否接受默尔索的提议\n→ 接受则开始狩猎任务，暂缓则可再次咨询SPA员工",
+      "steps": [
+        {
+          "index": 0
+        },
+        {
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "Q1023",
+      "title": "模特的退场",
+      "description": "据说要想换回默尔索，就必须让三只被称为模特的东西退场。解决掉模特后，回到看起来像是店铺主人的米莫萨那里吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "让模特退场"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "回到米莫萨身边"
+        }
+      ]
+    },
+    {
+      "key": "Q1031",
+      "title": "逛逛西西弗百货",
+      "description": "从默尔索那里听说了关于西西弗百货的说明。虽然并非全部都能理解，但这里似乎并没有像样的出口。总之先继续在这里四处看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "逛逛百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1032",
+      "title": "逛逛西西弗百货 2",
+      "description": "遇到了一个叫杜布瓦的人。这家伙看起来也和我们一样，是刚进入西西弗百货不久的人。为了寻找上到上层的方法，继续逛逛百货店吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "逛逛百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1041",
+      "title": "看看陈列的衣服",
+      "description": "来到了一个叫当代店铺的地方。这里的店员并没有特别跟我们搭话。逛逛店里陈列的衣服也不错。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "看看衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q1042",
+      "title": "挡住攻击人的勒努瓦尔店员",
+      "description": "",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1051",
+      "title": "去勒鲁日的店铺看看",
+      "description": "从勒努瓦尔店员那里听说了关于黄金松脂的事情。这次就去上面勒鲁日的当代店铺看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "去勒鲁日的当代店铺"
+        }
+      ]
+    },
+    {
+      "key": "Q1052",
+      "title": "弄来一根大针",
+      "description": "受勒鲁日当代店铺职员奎利安所托，要去弄来一根大针。找到持有针的人体模型，拿到针后回到奎利安身边吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从人体模型那里弄到大针后回到奎利安身边"
+        }
+      ]
+    },
+    {
+      "key": "Q1061",
+      "title": "购买衣服",
+      "description": "据说要想去上层，首先得积累购买业绩。从店铺职员那里购买衣服后，继续寻找去上层的方法吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从奎利安那里购买衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q1062",
+      "title": "前往自动扶梯",
+      "description": "找到了可以前往下一层的自动扶梯。还看到了刚才遇到的杜布瓦。最好还是去搭个话。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "跟杜布瓦搭话"
+        }
+      ]
+    },
+    {
+      "key": "Q1064",
+      "title": "乘坐自动扶梯",
+      "description": "自动扶梯正在正常运行。看来现在可以上到2层了。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘坐前往2层的自动扶梯"
+        }
+      ]
+    },
+    {
+      "key": "Q1018",
+      "title": "???",
+      "description": "(隐藏) 未获得时的对话",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1001",
+      "title": "任务1 - 开始",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Local planning notes are not part of the public release.
+/docs/superpowers/
+
+# Temporary installer test directories.
+/.test-tmp-*/
