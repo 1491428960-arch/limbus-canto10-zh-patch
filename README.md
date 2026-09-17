@@ -35,6 +35,10 @@
 - 内部 ID 保持原值，避免破坏 RPG 模式中的说话人匹配、姓名显示和立绘高亮；
 - 已尽量沿用已有中文语言资源的显示译名，统一同一词条在不同模式中的写法。
 
+本项目是在零协（Zero Association）此前公开的《边狱巴士》中文化工作、译名积累和相关资源整理基础上继续进行的社区补充项目。我们在本次主线资源中延续了这些已有成果，并向零协的维护者和参与者致以诚挚感谢。感谢你们此前的翻译、术语整理与分享，为后续汉化工作提供了重要基础。
+
+本仓库是独立的社区延续项目，不代表零协官方发布、授权或背书，也不表示双方存在隶属或合作关系。
+
 这不是 Project Moon 官方中文补丁，也不包含游戏本体、音频或其他受版权保护的完整游戏资源。
 
 ### 一键安装（推荐）
@@ -145,6 +149,21 @@ Steam 或游戏更新可能替换语言资源。遇到更新后中文消失、�
 
 ---
 
+## 贡献方与鸣谢 / Credits & Acknowledgements
+
+- **前置汉化与术语基础 / Previous localization foundation：** 零协（Zero Association）此前公开的《边狱巴士》中文化工作、译名积累与相关整理。
+- **本次资源整理与安装器 / Current resource processing and installer：** 本仓库维护者 / Maintainers of this repository。
+
+我们向零协的维护者和参与者致以诚挚感谢。你们此前的翻译、术语整理、资源整理与分享，为本项目继续处理新主线资源提供了重要基础。
+
+We sincerely thank the maintainers and contributors of Zero Association (零协) for their previous translation, terminology work, resource organization, and generous sharing. Their work provided an important foundation for this community continuation project.
+
+本仓库是独立的社区延续项目，不代表零协官方发布、授权或背书，也不表示双方存在隶属或合作关系。
+
+This repository is an independent community continuation project. It is not an official release of, authorized by, endorsed by, or affiliated with Zero Association.
+
+---
+
 ## English Instructions
 
 ### What this is
@@ -157,6 +176,10 @@ The current release contains:
 - RPG-mode resources for new-format dialogue, character titles, speaker names in the upper-left corner, and speaking-character portrait highlighting;
 - Traditional `StoryData` dialogue inserted into the RPG mode;
 - Consistent character names, terminology, and references to earlier Project Moon titles based on the existing `LLC_zh-CN` translations.
+
+This community patch continues from the earlier Chinese localization work, accumulated terminology, and related resource organization publicly shared by Zero Association (零协). We sincerely thank the maintainers and contributors of Zero Association for the foundation they provided through their translation, terminology work, and sharing.
+
+This repository is an independent community continuation project and does not represent an official release, authorization, endorsement, or affiliation of Zero Association.
 
 ### Translation policy
 
