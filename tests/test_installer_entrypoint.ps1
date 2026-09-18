@@ -18,10 +18,10 @@ try {
         throw 'BAT entrypoint did not create the language target folder'
     }
     $installedCount = @(Get-ChildItem -LiteralPath $target -Filter '*.json' -File -Recurse).Count
-    if ($installedCount -ne 91) {
-        throw "BAT entrypoint installed $installedCount JSON files instead of 91`n$($output -join "`n")"
+    if ($installedCount -ne 100) {
+        throw "BAT entrypoint installed $installedCount JSON files instead of 100`n$($output -join "`n")"
     }
-    Write-Output 'PASS: install.bat accepts a game path and installs all 91 JSON files'
+    Write-Output 'PASS: install.bat accepts a game path and installs all 100 JSON files'
 }
 finally {
     if (Test-Path -LiteralPath $root) {
