@@ -3,7 +3,7 @@ setlocal
 
 echo ============================================
 echo   Limbus Company Chinese Patch Installer
-echo   边狱巴士中文补丁一键安装器
+echo   (Chinese prompts are printed by PowerShell)
 echo ============================================
 echo.
 
@@ -17,9 +17,9 @@ set "EXIT_CODE=%ERRORLEVEL%"
 
 echo.
 if not "%EXIT_CODE%"=="0" (
-    echo Installation failed. / 安装失败。
+    echo Installation failed. Please read the message above.
 ) else (
-    echo Installation finished. / 安装完成。
+    echo Installation finished.
 )
 if "%~1"=="" pause
 exit /b %EXIT_CODE%

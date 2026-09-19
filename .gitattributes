@@ -1,0 +1,20 @@
+# 行尾与编码策略
+#
+# 背景（2026-09-19 线上故障）：接收方运行 install.bat 时刷屏报
+# 「'xxx' 不是内部或外部命令，也不是可运行的程序或批处理文件」，
+# 但文件照样装上了（真正干活的 install.ps1 仍被调用成功）。
+#
+# 根因：cmd.exe 在中文代码页 936 下解析「LF 换行 + 非 ASCII 字符」的 .bat 时，
+# 多字节字符会吞掉行首关键字与换行符，把正常命令行拆成非法命令。
+# Git 仓库内部一律以 LF 存储，本机因 core.autocrlf=true 检出为 CRLF 所以自己测正常，
+# 而 clone / GitHub ZIP 下载拿到的都是仓库里的 LF 版本。
+#
+# 现在 install.bat 已改写为纯 ASCII（中文提示全部由 install.ps1 输出），
+# 对文件编码与换行符均已免疫；以下规则作为第二道保险，锁定分发形态。
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Windows PowerShell 5.1 读取「UTF-8 无 BOM」的 .ps1 时按 ANSI/GBK 解释，
+# 中文提示会整体变成「锟斤拷」式乱码；install.ps1 依赖 UTF-8 BOM 才能同时兼容
+# Windows PowerShell 5.1 与 PowerShell 7。
+*.ps1 text eol=crlf
