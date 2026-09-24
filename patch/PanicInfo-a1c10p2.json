@@ -10,8 +10,8 @@
     {
       "id": 1113,
       "panicName": "失去孩子",
-      "lowMoraleDescription": "使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为噗伊，则硬币强度 +3，基础强度 +2</u></b></mark></color>\n受击时赋予1层[TangleBlackYarn]（每个技能最多3次）",
-      "panicDescription": "<color=#ff6000><mark=#ff000040><b><u>将所有攻击的目标指定为噗伊</u></b></mark></color>\n开始战斗时，技能的所有硬币变更为<color=#ff6000><mark=#ff000040><b><u>不可摧毁的硬币</u></b></mark></color>\n使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为噗伊，则硬币强度 +6，基础强度 +4</u></b></mark></color>\n受击时赋予1层[TangleBlackYarn]（每个技能最多6次）",
+      "lowMoraleDescription": "使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为普伊，则硬币强度 +3，基础强度 +2</u></b></mark></color>\n受击时赋予1层[TangleBlackYarn]（每个技能最多3次）",
+      "panicDescription": "<color=#ff6000><mark=#ff000040><b><u>将所有攻击的目标指定为普伊</u></b></mark></color>\n开始战斗时，技能的所有硬币变更为<color=#ff6000><mark=#ff000040><b><u>不可摧毁的硬币</u></b></mark></color>\n使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为普伊，则硬币强度 +6，基础强度 +4</u></b></mark></color>\n受击时赋予1层[TangleBlackYarn]（每个技能最多6次）",
       "flavor": "愤怒、悲伤而哀嚎，但这感情定是业报。诞生与死亡相伴，却不知必须觉悟巨大的丧失，孕育并怀抱卵之业报。这其中无善无恶。唯有愚昧。"
     },
     {
