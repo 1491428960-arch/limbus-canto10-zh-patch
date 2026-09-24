@@ -43,7 +43,15 @@ function Assert-NoHangul {
 $baseDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $patchRoot = Join-Path (Split-Path -Parent $baseDir) 'patch'
 
-$personalities = Read-DataList (Join-Path $patchRoot 'Personalities.json')
+# 这批人格资源属于 Part 1 时代；Part 2 补丁只含新增主线资源，不含它们。
+# 零协 Part 1 官方包已覆盖这些文件，因此补丁切到 Part 2 之后这里不再有可校验的对象 —— 跳过而不是失败。
+$personalitiesPath = Join-Path $patchRoot 'Personalities.json'
+if (-not (Test-Path -LiteralPath $personalitiesPath -PathType Leaf)) {
+    Write-Output 'SKIP: this patch no longer ships the Part 1 personality resources (owned upstream by the Zero Association Part 1 pack)'
+    exit 0
+}
+
+$personalities = Read-DataList $personalitiesPath
 $ryoshu = @(Find-Entry $personalities '10416')
 $ishmael = @(Find-Entry $personalities '10816')
 $ryoshuName = -join ([char]0x826F, [char]0x79C0)
