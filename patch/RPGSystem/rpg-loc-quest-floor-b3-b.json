@@ -1,0 +1,319 @@
+{
+  "dataList": [
+    {
+      "key": "Q-3000",
+      "title": "带来皮革",
+      "description": "控制者要求用八张皮革作为制作黄金寿衣的代价。\n去收集散落在百货商店上下的东西吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "地下2层的三张皮革",
+          "goalDescription2": "地下1层的皮革",
+          "goalDescription3": "1层的皮革",
+          "goalDescription4": "2层的皮革",
+          "goalDescription5": "3层的皮革",
+          "goalDescription6": "4层的皮革"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010",
+      "title": "收集黄金皮革",
+      "description": "在地下3层遇到了管理者。管理者说，为了用黄金皮革制作衣服，我们必须从我们走过的路上收集黄金皮革。那家伙告诉了我们黄金皮革的位置。去收集黄金皮革吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "获取调色板的黄金松脂",
+          "goalDescription2": "获取奥提斯的黄金皮革",
+          "goalDescription3": "获取裁缝之王的黄金皮革",
+          "goalDescription4": "获取副主厨的黄金皮革",
+          "goalDescription5": "从1层尸体堆中获取黄金皮革",
+          "goalDescription6": "从4层墙壁获取黄金皮革",
+          "goalDescription7": "从红派品牌总监的尸体中获取黄金皮革",
+          "goalDescription8": "从3F楼层经理处获取黄金皮革"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011",
+      "title": "带回皮革 — 地下1层",
+      "description": "管理者要求的八张皮革中地下1层的份额。\n从美食广场的副主厨那里剥下来吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往地下1层美食广场",
+          "goalDescription2": "获取副主厨的黄金皮革 (4/8)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3012",
+      "title": "带回皮革 — 1层",
+      "description": "管理者要求的八张皮革中1层的份额。\n翻找尸体堆找出来吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "拾取尸体堆间的黄金皮革 (5/8)",
+          "goalDescription2": "获取尸体堆间的黄金皮革 (5/8)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3013",
+      "title": "带回皮革 — 2层",
+      "description": "管理者要求的八张皮革中2层的份额。\n从品牌总监那里剥下来吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "拾取红派品牌总监的黄金皮革 (7/8)",
+          "goalDescription2": "获取红派品牌总监的黄金皮革 (7/8)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3014",
+      "title": "带回皮革 — 3层",
+      "description": "管理者要求的八张皮革中3层的份额。\n从3F楼层经理那里剥下来吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往3F楼层经理的房间",
+          "goalDescription2": "获取3F楼层经理的黄金皮革 (8/8)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3015",
+      "title": "带回皮革 — 4层",
+      "description": "管理者要求的八张皮革中4层的份额。\n翻找解剖派留下的水泥堆吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "拾取墙壁缝隙间的黄金皮革 (6/8)",
+          "goalDescription2": "获取墙壁缝隙间的黄金皮革 (6/8)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3006",
+      "title": "返回管理者处",
+      "description": "终于集齐了八张黄金皮革。返回地下3层的管理者那里，交出收集来的皮革，为普伊制作黄金皮革衣服吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "返回管理者处"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003",
+      "title": "前往鞣制室",
+      "description": "已经集齐了8张黄金皮革。据说制作定制衣服需要几道工序，首先得量尺寸。为了量尺寸，去鞣制室找一个叫特纳的人吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往鞣制室"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "在版型准备完成前消灭涌来的敌人"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "与特纳搭话"
+        }
+      ]
+    },
+    {
+      "key": "Q-3004",
+      "title": "前往裁剪室",
+      "description": "量好了普伊的尺寸，纸样准备也都完成了。据说接下来还剩下裁剪和缝制任务。前往裁剪室吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往裁剪室"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "在裁剪工序结束前，消灭涌来的敌人"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "确认裁剪机器"
+        }
+      ]
+    },
+    {
+      "key": "Q-3007",
+      "title": "完成缝制",
+      "description": "裁剪任务结束了。现在只要把缝制交给培育者，黄金皮衣就能完成了。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往培育者处"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "在培育者完成缝制任务前，消灭涌来的敌人"
+        }
+      ]
+    },
+    {
+      "key": "Q-3001",
+      "title": "从管理者处接收完成的黄金寿衣",
+      "description": "工序似乎都结束了。去管理者那里接收做好的衣服吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从管理者处接收完成的黄金寿衣"
+        }
+      ]
+    },
+    {
+      "key": "Q-3005",
+      "title": "消灭管理者",
+      "description": "管理者虽然帮我们做好了黄金皮衣，但似乎觉得交出去太可惜了，便开始攻击我们。消灭管理者，带走做好的黄金皮衣吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "消灭管理者"
+        }
+      ]
+    },
+    {
+      "key": "Q-3002",
+      "title": "前往5层",
+      "description": "普伊穿上了管理者做好的黄金皮衣。但吞食了蠕虫的普伊心情似乎并不太好。现在前往5层吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "到达5层"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010A",
+      "title": "(内部) 获取调色板皮革信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "获取调色板的皮革 (内部信号)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010B",
+      "title": "(内部) 获取楼层经理皮革信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "获取楼层经理皮革 (内部信号)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3010S",
+      "title": "(内部) 保镖换班信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "保镖换班 (内部信号)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011S",
+      "title": "(内部) 黄金皮革接单信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "黄金皮革接单 (内部信号)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011T",
+      "title": "(内部) 搜查开战信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "搜查开战 (内部信号)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H1",
+      "title": "(内部) 搜查打击 1",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "搜查打击 1 (内部)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H2",
+      "title": "(内部) 搜查打击 2",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "搜查打击 2 (内部)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011H3",
+      "title": "(内部) 搜查打击 3",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "搜查打击 3 (内部)"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003A",
+      "title": "鞣制室工序",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "坚守鞣制室工序直到最后"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003B",
+      "title": "裁剪室工序",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "坚守裁剪室工序直到最后"
+        }
+      ]
+    },
+    {
+      "key": "Q-3003C",
+      "title": "外部广场工序",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "坚守外部广场工序直到最后"
+        }
+      ]
+    },
+    {
+      "key": "Q-3011R",
+      "title": "与副主厨重新谈判",
+      "description": "交出手臂的交易代价太大了。回到地下1层美食广场找副主厨，以其他代价谈判黄金皮革吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与副主厨重新谈判"
+        }
+      ]
+    }
+  ]
+}

@@ -14,15 +14,49 @@
 
 ---
 
+## ⚠️ 请注意：本仓库此前的 Part 1 补丁已过时
+
+**如果你现在装的是本仓库早先发布的版本（第十章 Part 1，100 个文件），请改用零协（Zero Association）官方发布的 Part 1 中文补丁。**
+
+零协的官方版本在译名统一性、文本覆盖度和后续维护上都优于我们早先的自制版本 —— 既然官方的已经出来了，就没有理由让旧版继续留在你的游戏里。
+
+**当前 `patch/` 目录只包含第十章 Part 2 的新增内容（100 个文件）**，与零协的 Part 1 补丁**互不冲突，可以同时安装**：
+
+| 补丁 | 负责范围 |
+|---|---|
+| 零协官方补丁 | Part 1，以及其他所有它已覆盖的章节 |
+| 本补丁 | 只补充零协尚未覆盖的 Part 2 新增资源（`-a1c10p2` 等） |
+
+**安装顺序：建议先装零协的补丁，再装本补丁。** 两个补丁的文件名不重叠，但按这个顺序装可以避免任何意外覆盖。
+
+---
+
+## ⚠️ Notice: the previous Part 1 patch in this repo is outdated
+
+**If you have the earlier release from this repository (Canto 10 Part 1, 100 files), please switch to the official Part 1 Chinese patch published by Zero Association (零协).**
+
+Their official release is better than our earlier self-made version in terminology consistency, text coverage, and ongoing maintenance. Now that the official version exists, there is no reason to keep the old one in your game.
+
+**The `patch/` folder now contains only the new Canto 10 Part 2 content (100 files)**, which does not conflict with Zero Association's Part 1 patch and can be installed alongside it:
+
+| Patch | Scope |
+|---|---|
+| Zero Association official patch | Part 1 and every other chapter it already covers |
+| This patch | Only the Part 2 resources Zero Association does not cover yet (such as `-a1c10p2`) |
+
+**Install order: install the Zero Association patch first, then this one.** The two patches share no filenames, but this order avoids any accidental overwrite.
+
+---
+
 ## 中文说明
 
 ### 这是什么
 
-这是《边狱巴士》（Limbus Company）第十章相关新主线资源的中文语言补丁，面向使用 `LLC_zh-CN` 语言目录的 Windows 版本。
+这是《边狱巴士》（Limbus Company）第十章 **Part 2** 新增主线资源的中文语言补丁，面向使用 `LLC_zh-CN` 语言目录的 Windows 版本。
 
 当前发布内容包括：
 
-- 91 个 JSON 语言资源文件；
+- 100 个 JSON 语言资源文件（第十章 Part 2 新增资源）；
 - RPG 模式中新格式对话、角色头衔、左上角说话人姓名和立绘说话高亮所需的资源；
 - RPG 模式中插入的传统 `StoryData` 对话；
 - 与已有 `LLC_zh-CN` 文本保持一致的角色名、专有名词和前作相关译名。
@@ -168,14 +202,16 @@ This repository is an independent community continuation project. It is not an o
 
 ### What this is
 
-This is a Chinese language patch for the Canto 10 main-story resources of **Limbus Company**, intended for the Windows version that uses the `LLC_zh-CN` language folder.
+This is a Chinese language patch for the **Canto 10 Part 2** main-story resources of **Limbus Company**, intended for the Windows version that uses the `LLC_zh-CN` language folder.
 
 The current release contains:
 
-- 91 JSON language resource files;
+- 100 JSON language resource files (new Canto 10 Part 2 resources);
 - RPG-mode resources for new-format dialogue, character titles, speaker names in the upper-left corner, and speaking-character portrait highlighting;
 - Traditional `StoryData` dialogue inserted into the RPG mode;
 - Consistent character names, terminology, and references to earlier Project Moon titles based on the existing `LLC_zh-CN` translations.
+
+For Part 1, please use the official Chinese patch published by Zero Association (零协). The earlier Part 1 release from this repository is outdated.
 
 This community patch continues from the earlier Chinese localization work, accumulated terminology, and related resource organization publicly shared by Zero Association (零协). We sincerely thank the maintainers and contributors of Zero Association for the foundation they provided through their translation, terminology work, and sharing.
 

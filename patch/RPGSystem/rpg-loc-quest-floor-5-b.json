@@ -1,0 +1,150 @@
+{
+  "dataList": [
+    {
+      "key": "Q5001",
+      "title": "调查5层",
+      "description": "终于和普伊一起来到了5层。不知道前方会有什么，但继续往前走吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "调查5层走廊里的门"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "聆听克罗默的故事"
+        }
+      ]
+    },
+    {
+      "key": "Q5011",
+      "title": "???",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "???"
+        }
+      ]
+    },
+    {
+      "key": "Q5002",
+      "title": "前往地下1层",
+      "description": "据说要进入5层内部，还缺乏美德。普伊说必须穿上用黄金真皮制作的寿衣。据说下到地下，会有帮忙加工真皮的人。下到地下吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往地下1层"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "触碰5层的帷幕"
+        }
+      ]
+    },
+    {
+      "key": "Q5004",
+      "title": "前往5层深处",
+      "description": "普伊穿上了管理者完成的黄金真皮衣服。但是吞食了小虫子的普伊心情似乎不太好。现在前往5层吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往5层深处"
+        },
+        {
+          "index": 1,
+          "goalDescription2": "击退蜂拥而至的敌人"
+        }
+      ]
+    },
+    {
+      "key": "Q5008",
+      "title": "(内部) 与拦路的黑派对峙",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与拦路的黑派对峙"
+        }
+      ]
+    },
+    {
+      "key": "Q5006",
+      "title": "(内部) 突破黑派人群",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "击倒9名黑派店员[阳光]",
+          "goalDescription2": "击倒7名黑派警卫",
+          "goalDescription3": "击倒3名黑派当代店员",
+          "goalDescription4": "击倒2名黑派梅森店员",
+          "goalDescription5": "击倒2名黑派梅森"
+        }
+      ]
+    },
+    {
+      "key": "Q5007",
+      "title": "前往5层深处的帷幔",
+      "description": "击退了5层涌来的敌人。现在进入5层深处，去触碰帷幔吧。布伊穿上了黄金寿衣，或许会产生与以往不同的变化。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "触碰5层的帷幔",
+          "goalDescription2": ""
+        }
+      ]
+    },
+    {
+      "key": "Q5003",
+      "title": "击倒黑派品牌经理",
+      "description": "击倒拦路的黑派品牌经理吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "击倒黑派品牌经理"
+        }
+      ]
+    },
+    {
+      "key": "Q5005",
+      "title": "观察自助餐",
+      "description": "克罗默姐姐裂开了。\n看看自助餐会变成什么吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "观察自助餐最终会变成什么"
+        }
+      ]
+    },
+    {
+      "key": "Q5009",
+      "title": "前往餐厅内部",
+      "description": "平安进入了阻挡5层的帷幔内部。里面可以看到巨大的某种存在正在进食的景象。总之先避开敌人，继续向内部逃跑吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往餐厅内部"
+        }
+      ]
+    },
+    {
+      "key": "Q5010",
+      "title": "从涌来的黑派手中保护克罗默姐姐",
+      "description": "布伊说很困，好像要睡着了。在座位上睡着的布伊就这样变成了克罗默姐姐的形态。黑派们盯上了克罗默姐姐，从四面八方涌来。保护布伊吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从涌来的黑派手中保护克罗默姐姐"
+        }
+      ]
+    },
+    {
+      "key": "Q5012",
+      "title": "击倒黑之丝",
+      "description": "击倒拦路的黑之丝吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "击倒黑之丝"
+        }
+      ]
+    }
+  ]
+}

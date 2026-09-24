@@ -1,0 +1,110 @@
+{
+  "dataList": [
+    {
+      "key": "Q1000",
+      "title": "开场",
+      "description": "加载后立刻播放开场演出(S1001B)的隐藏任务",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1001",
+      "title": "任务1-开始",
+      "description": "返回卫生间"
+    },
+    {
+      "key": "Q1011",
+      "title": "探索百货店",
+      "description": "真奇怪。我们又回到了卫生间，大家都表现得好像什么都不记得一样，而且默尔索也不见了。这一切不可能只是一场梦。先探索一下百货店吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1013",
+      "title": "前往SPA馆",
+      "description": "幸好似乎不是梦。总之先继续往前走吧。当务之急是找到不知在哪里的默尔索。说不定他在上次去过的那家店里？",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往SPA馆"
+        }
+      ]
+    },
+    {
+      "key": "Q1021",
+      "title": "寻找默尔索",
+      "description": "默尔索应该在这附近的某个地方。找到默尔索后跟他搭话吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与默尔索搭话"
+        }
+      ]
+    },
+    {
+      "key": "Q1022",
+      "title": "人台退场",
+      "description": "为了带走默尔索，必须答应SPA馆含羞草的请求。快点解决人台并离开吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "去寻找人台"
+        }
+      ]
+    },
+    {
+      "key": "Q1023",
+      "title": "人台退场 2",
+      "description": "没必要再长时间交谈下去了。快点让人台退场吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "让人台退场"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "回去找含羞草"
+        }
+      ]
+    },
+    {
+      "key": "Q1031",
+      "title": "离开1层",
+      "description": "幸好情况比一开始好转了。这次必须得出不同的结果。当务之急是先离开1层。快点离开SPA馆，去下一家店铺吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "离开SPA馆"
+        }
+      ]
+    },
+    {
+      "key": "Q1064",
+      "title": "乘坐前往2层的扶梯",
+      "description": "遇到了上次也来跟我们搭话的那个叫杜布瓦的家伙。但没有时间长时间交谈了。快点前往下一层吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘坐前往2层的扶梯"
+        }
+      ]
+    },
+    {
+      "key": "Q1012S",
+      "title": "（内部）1层客人座位换班信号",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "遭遇克罗默（内部信号）"
+        }
+      ]
+    }
+  ]
+}

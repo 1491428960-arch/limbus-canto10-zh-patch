@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "key": "ItemFilterBuffetUpgrade",
+      "text": "噗伊强化"
+    },
+    {
+      "key": "Setting_Tab_Key",
+      "text": "按键设置"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveUp",
+      "text": "向上跳转"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveDown",
+      "text": "向下跳转"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveLeft",
+      "text": "向左跳转"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveRight",
+      "text": "向右跳转"
+    },
+    {
+      "key": "KeyDesc_PlayerFieldAttack",
+      "text": "跳过对话"
+    },
+    {
+      "key": "KeyDesc_PlayerGuard",
+      "text": "防御"
+    },
+    {
+      "key": "KeyDesc_PlayerDodge",
+      "text": "闪避"
+    },
+    {
+      "key": "KeyDesc_PlayerRun",
+      "text": "跳过制作人员名单"
+    },
+    {
+      "key": "KeyDesc_PlayerQuestNavigationToggle",
+      "text": "自动攻击"
+    },
+    {
+      "key": "KeyDesc_PlayerLanternToggle",
+      "text": "快捷键"
+    },
+    {
+      "key": "KeyDesc_PlayerAutoAttackToggle",
+      "text": "自动跳过对话"
+    },
+    {
+      "key": "KeyDesc_PlayerSuicide",
+      "text": "选择对话选项"
+    },
+    {
+      "key": "KeyDesc_UiToggleInventoryTab",
+      "text": "背包"
+    },
+    {
+      "key": "KeyDesc_UiToggleQuestTab",
+      "text": "继续 · 选择选项"
+    },
+    {
+      "key": "KeyDesc_UiToggleManualTab",
+      "text": "快捷键指南"
+    },
+    {
+      "key": "KeyDesc_UiToggleSystemLog",
+      "text": "没有持有的道具。"
+    },
+    {
+      "key": "KeyBind_InvalidKey",
+      "text": "无法使用的按键。"
+    },
+    {
+      "key": "MoveToKeyBind",
+      "text": "按键设置跳转至"
+    }
+  ]
+}
